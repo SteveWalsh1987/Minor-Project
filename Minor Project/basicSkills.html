@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Basic Cooking Skills</title>
 
     <!-- Bootstrap -->
     <link href="media/css/bootstrap.min.css" rel="stylesheet">
@@ -16,14 +16,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="media/css/SkillsCss.css" rel="stylesheet">
-
-
   </head>
+
+  <!-- Navbar content will be the same across the whole site! -->
   <body>
-
-     <div class="navbar-wrapper">
+    <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
@@ -36,58 +34,55 @@
               <a class="navbar-brand" href="#">CookED Logo Here!</a>
             </div>
 
-
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-<!--This is for the log in section-->
-
-<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Log In <span class="caret"></span></a>
+                <!--This is for the log in section-->
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Log In <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-
-                <form>
-  <input type="text" name="username" id="username" placeholder="User Name">
-  
-</form>
-<form>
-  <input type="text" name="Password" id="Password" placeholder="Password">
-  <input type="button" value="Submit" onclick="returncollectData();">
-  
-</form></li></ul>
-
-                <li><a href="#about">About us / FAQ's</a></li>
-                <li><a href="#Recipies">Recipies</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kitchen Tips <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="basicSkills.html">Basic Skills</a></li>
-                    <li><a href="Beginner.html">Starter Tips</a></li>
-                    <li><a href="Intermediate.html">Medium Tips</a></li>
-                    <li><a href="advanced.html">Advanced Tips</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Submit a Tip!</a></li>
-                  </ul>
+                    <form>
+                      <input type="text" name="username" id="username" placeholder="User Name">
+                    </form>
+                  <form>
+                    <input type="text" name="Password" id="Password" placeholder="Password">
+                    <input type="button" value="Submit" onclick="returncollectData();">  
+                  </form>
                 </li>
-                 <li><a href="#Sponsors">Sponsors</a></li>
               </ul>
 
-<!-- Search Bar -->
-<div id="boxes">
-    <div class="box">
-      
-      
-      </br>
-      <form>
-  <input type="text" name="userData" id="Recipes">
-  <input type="button" value="Search" onclick="returncollectData();">
-</form>              
-            </div>
-          </div>
-        </nav>
+              <li><a href="#about">About us / FAQ's</a></li>
+              <li><a href="#Recipies">Recipies</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kitchen Tips <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="basicSkills.html">Basic Skills</a></li>
+                  <li><a href="Beginner.html">Starter Tips</a></li>
+                  <li><a href="Intermediate.html">Medium Tips</a></li>
+                  <li><a href="advanced.html">Advanced Tips</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Submit a Tip!</a></li>
+                </ul>
+              </li>
+              <li><a href="#Sponsors">Sponsors</a></li>
+            </ul>
 
+            <!-- Search Bar -->
+            <div id="boxes">
+              <div class="box">
+            </br>
+            <!-- Search field-->
+            <form>
+              <input type="text" name="userData" id="Recipes">
+              <input type="button" value="Search" onclick="returncollectData();">
+            </form>              
+              </div>
+            </div>
+        </nav>
       </div>
     </div>
+
+    <!-- This is where the video content is. The code is based of our second workshop that used media.html and video code to display multiple videos and in multiple formats. Then the ordered lists number the steps of the skill that needs to be performed. This is done a number of times depending on the content--> 
 
     <!--This is where the video content div is -->
     <div class = "container">
@@ -95,7 +90,6 @@
 
     <h2 class = "headers">First Section</h2>
 
-    <!-- Embeding youtube video just for testing -->
     <video class = "VStyle"  controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
     <ol class = "OList" type = "1"style="font-weight: bold";>
       <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -114,76 +108,56 @@
         </div>
         </div>
 
-      <!--Section 2-->
+    <!--Section 2-->
+
     <div class = "container">
-    <div id = "VSec">
+      <div id = "VSec">
+        <h2 class = "headers">Second Section</h2>
 
-    <h2 class = "headers">Second Section</h2>
-
-    <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
-     <ol class = "OList" type = "1"style="font-weight: bold";>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      </ol>
+          <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
+          <ol class = "OList" type = "1"style="font-weight: bold";>
+            <li><p class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+          </ol>
+      </div>
     </div>
-  </div>
 
     <!--Section 3-->
   
-  <div class = "container">
-    <div id = "VSec">
+    <div class = "container">
+      <div id = "VSec">
+        <h2 class = "headers">Third Section</h2>
 
-    <h2 class = "headers">Third Section</h2>
-
-    <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
-       <ol class = "OList" type = "1"style="font-weight: bold";>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      </ol>
-    </div>
+          <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
+          <ol class = "OList" type = "1"style="font-weight: bold";>
+            <li><p class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+          </ol>
+      </div>
     </div>
 
-  <div class = "container">
-    <div id = "VSec">
+      <div class = "container">
+      <div id = "VSec">
+        <h2 class = "headers">Fourth Section</h2>
 
-    <h2 class = "headers">Third Section</h2>
-
-    <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
-       <ol class = "OList" type = "1"style="font-weight: bold";>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-      <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-      <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-      </ol>
-    </div>
+          <video class = "VStyle" class = "embed-responsive-item" controls = "controls " preload = "none" poster "assets/img/bunny.jpg" loop><source src ="media/video/vid1.mp4" type = "video/ogg"/></video>
+          <ol class = "OList" type = "1"style="font-weight: bold";>
+            <li><p class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li><p  class = "IList">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+            <li><p  class = "IList">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+            <li><p  class = "IList">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+          </ol>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
