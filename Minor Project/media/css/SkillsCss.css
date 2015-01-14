@@ -1,34 +1,28 @@
-    div#VSec{
-          margin: 0 auto 0 auto;
-          background-color: #99aaFF;
-          padding: 10px;
-          border:3px solid;
-    }
+div#VSec{
+  margin: 0 auto 0 auto;
+  background-color: #99aaFF;
+  padding: 10px;
+  border:3px solid;
+  overflow: hidden;
+}
 
-    .VStyle{
-      float:left;
-      margin-right: 20px;
-      border:1px solid;
-      padding: 10px;
-      width: 490px;
-      height: 300px;
-    }
+.VStyle{
+  float:left;
+  margin-right: 25px;
+  border:1px solid;
+  width: 60%;
+  height: 60%;
 
-    .OList{
+}
 
-    }
+video.VStyleRightSide{
+  float:right;
+  margin-left: 20px;
+}
 
-    video.VStyle2{
-      float:right;
-      margin-left: 20px;
-    }
+h2.headers{
+  text-align: center;
+}
 
-    p.blank{
-      clear:both;
-    }
-
-    h2.headers{
-      text-align: center;
-    }
-
-    p.IList { font-weight: normal; }
+/* one way to stop the background to cover the video and text*/
+.clearfix { display:block; clear:both; width:0px; height:0px; }
