@@ -1,0 +1,113 @@
+@font-face {
+
+font-family: Bubblegum;
+src: url("assets/fonts/bubblegum/Bubblegum.ttf");
+}
+
+h1 {
+margin: 0;
+}
+/Grey Border-->/
+h2 {
+margin: 0px 0px 15px 0px;
+border-bottom: 1px #cbcbcb solid;
+}
+
+.navbar-wrapper {
+
+background:#B71F4B;
+height:100px;
+}
+
+.navbar{
+
+background-color: #EDDD59;
+margin-left: 130px;
+}
+
+.main {
+margin: 20px 0px 0px 0px;
+background:#EDDD59;
+}
+
+.img-border {
+background-color: #B71F4B;
+padding: 5px;
+border: 1px #cbcbcb solid;
+margin: 0px 0px 10px 0px;
+}
+
+.social-links {
+font-size: 14pt;
+}
+
+.social-links a {
+color: #323232;
+text-decoration: none;
+}
+
+.social-links a:hover {
+color: #000000;
+text-decoration: none;
+}
+
+.contact-info {
+margin: 10px 0px 0px 0px;
+}
+
+.contact-info a {
+color: #323232;
+text-decoration: none;
+}
+
+.contact-info a:hover {
+text-decoration: underline;
+}
+
+.projects a {
+font-size: 14pt;
+color: #323232;
+text-decoration: none;
+
+}
+
+.projects a:hover {
+font-size: 14pt;
+color: #000000;
+text-decoration: none;
+
+}
+
+.footer {
+margin: 20px 0px 10px 0px;
+padding: 10px 0px 10px 0px;
+border-top: 1px #cbcbcb solid;
+background-color: #B71F4B;
+}
+
+.footer a {
+color: #323232;
+text-decoration: none;
+
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
+
+.background {
+
+background-color: #EDDD59;
+}
+.recipe {
+font-family: Bubblegum;
+margin-left: 50px
+}
+
+.prize {
+
+font-family: Bubblegum;
+}
+.logo {
+
+}
