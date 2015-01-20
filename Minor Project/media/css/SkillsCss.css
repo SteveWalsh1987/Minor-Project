@@ -10,6 +10,7 @@ div#VSec{
   padding: 10px;
   border:3px solid;
   overflow: hidden;
+  background-color: #FF0000;
 }
 
 .VStyle{
@@ -18,7 +19,7 @@ div#VSec{
   border:1px solid;
   width: 60%;
   height: 60%;
-
+  background-color: #EDDD59;
 }
 
 video.VStyleRightSide{
